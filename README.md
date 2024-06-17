@@ -30,8 +30,8 @@ The build_and_assign_codes method reads the input file, builds the Huffman Tree,
   ```bash
   huffman_tree ht;
   ht.build_and_assign_codes("input.txt", "codes.txt");
- ```bash
-#### Encoding
+
+#### 3.Encoding
 To encode the text in the input file, use the encode_text method. The encoded binary text will be saved to encoded.txt.
 
 
