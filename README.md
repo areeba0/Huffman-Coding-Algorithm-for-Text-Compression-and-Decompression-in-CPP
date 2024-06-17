@@ -21,19 +21,17 @@ The implementation consists of a few key components:
 - Huffman Tree: The core structure that constructs the tree, assigns codes, encodes, and decodes text.
 
   # Usage
-  #### 1. Input Preparation= 
+  #### 1.Input Preparation= 
   Create an input text file (input.txt) containing the text you wish to compress.
   ```bash
   frequencies frequencies frequencies
 #### 2.Building and Assigning Codes
 The build_and_assign_codes method reads the input file, builds the Huffman Tree, and assigns binary codes to each character. It also writes these codes to a file (codes.txt).
-  ```bash
-  huffman_tree ht;
-  ht.build_and_assign_codes("input.txt", "codes.txt");
-
 #### 3.Encoding
 To encode the text in the input file, use the encode_text method. The encoded binary text will be saved to encoded.txt.
+#### 4.Decoding
+To decode the encoded text, use the decode_text_and_show method. This method will display the decoded text and save it to decoded.txt.
 
 
-#### -----
+
 
